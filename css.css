@@ -1,0 +1,25 @@
+/* Estilos personalizados */
+
+#banner {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  height: 4000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #924444;
+  text-align: center;
+}
+
+#sobre img {
+  width: 100%;
+}
+
+#destinos .card {
+  transition: transform 0.3s;
+}
+
+#destinos .card:hover {
+  transform: scale(1.05);
+}
